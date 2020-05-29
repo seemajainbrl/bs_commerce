@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: dress_materials
+label: 'Dress Materials'
+description: 'Dress Materials'
+variationType: dress_materials
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false
