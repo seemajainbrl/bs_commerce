@@ -1,0 +1,23 @@
+VM Details   
+IP Address	User Id
+10.64.101.74	bsladmin
+
+Static hostname: BSLDigitalAssetManagement
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 76a960e2582b4f88aee78413479e9979
+           Boot ID: b3417b8c36944bab9d5f9183226c80ae
+    Virtualization: microsoft
+  Operating System: Red Hat Enterprise Linux Server 7.7 (Maipo)
+       CPE OS Name: cpe:/o:redhat:enterprise_linux:7.7:GA:server
+            Kernel: Linux 3.10.0-1062.4.1.el7.x86_64
+      Architecture: x86-64
+
+
+Install Drupal
+
+wget https://ftp.drupal.org/files/projects/drupal-8.3.6.tar.gz
+sudo mkdir /var/www/html/ - create the directory
+sudo yum -y install php-mbstring php-gd php-xml
+cd /home/bsladmin/drupal-8.3.6
+chmod 755 sites/default/settings.php
