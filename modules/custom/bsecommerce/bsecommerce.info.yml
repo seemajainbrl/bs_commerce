@@ -1,0 +1,19 @@
+name: bsEcommerce
+type: module
+core: 8.x
+dependencies:
+  - address
+  - commerce
+  - commerce_cart
+  - commerce_checkout
+  - commerce_order
+  - commerce_price
+  - commerce_product
+  - commerce_store
+  - inline_entity_form
+  - options
+  - path
+  - state_machine
+  - text
+  - user
+  - views
