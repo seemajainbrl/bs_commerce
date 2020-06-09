@@ -1,5 +1,5 @@
 {
-    "name": "drupal/bscommtest",
+    "name": "drupal2/bscommtest",
     "description": "Testing project",
     "type": "project",
     "description": "Project template for Drupal 8 projects with composer following drupal/drupal layout",
